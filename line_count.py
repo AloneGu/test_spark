@@ -29,3 +29,7 @@ sc.stop()
 
 print lineLengths
 print totalLength
+
+# output:
+# PythonRDD[3] at RDD at PythonRDD.scala:43
+# 3972

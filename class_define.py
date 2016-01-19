@@ -5,7 +5,7 @@ class wifi_data(object):
         self.sn=sn
 
     def foo(self):
-        self.sn=44
+        self.sn=3
         print 'xxx'
 
 def determine_type(wifi_data):
