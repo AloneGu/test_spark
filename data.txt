@@ -1,0 +1,42 @@
+841-0AF00004-1452589554-1452589554|1841|requests.packages.urllib3.connectionpool|line:207|func:_new_conn
+MSG:Starting new HTTP connection (1): 10.240.132.129
+2016-01-12 09:06:52|INFO|1-1841-0AF00004-1452589554-1452589554|1841|pipeline_framework.log.handler|line:285|func:_emit
+MSG:Emit logs successfully: total[1]
+download finished for ['8600095', '8600132', '8600139', '8600140', '8600169', '8600096', '8600222', '8600087', '8100116', '8600059', '8600094', '8600195'] 2015-12-22 00:00:00 , 314 files
+2016-01-12 09:07:21|INFO|1-1841-0AF00004-1452589554-1452589554|1841|logagent|line:120|func:download_csv
+MSG:download finished for ['8600095', '8600132', '8600139', '8600140', '8600169', '8600096', '8600222', '8600087', '8100116', '8600059', '8600094', '8600195']  2015-12-22 00:00:00
+process 314 csv files finished, 2015-12-22
+2016-01-12 09:07:41|INFO|1-1841-0AF00004-1452589554-1452589554|1841|logagent|line:275|func:wifi_classifier
+MSG:save feature to table wifi_mac_features ok
+2016-01-12 09:07:41|DEBUG|1-1841-0AF00004-1452589554-1452589554|1841|logagent|line:276|func:wifi_classifier
+MSG:save feature to table wifi_mac_features ok
+2016-01-12 09:07:53|INFO|1-1841-0AF00004-1452589554-1452589554|1841|pipeline_framework.util.network|line:228|func:call
+MSG:[POST]http://10.240.132.129:80/api/store_logs?version=1&expired_time=1452591473&sign=a16884f4453a4a3d9e792b228eb3ccca
+2016-01-12 09:07:53|INFO|1-1841-0AF00004-1452589554-1452589554|1841|pipeline_framework.log.handler|line:285|func:_emit
+MSG:Emit logs successfully: total[2]
+/usr/lib/python2.7/dist-packages/pkg_resources.py:1031: UserWarning: /home/deployer/.python-eggs is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+2016-01-12 09:32:51|DEBUG|1-2831-0AF00004-1452591171-1452591171|2831|logagent|line:49|func:main
+MSG:ds wifi classification start...
+return the biz hour * 4 for match the time index
+['8', '0']
+2016-01-12 09:32:51|DEBUG|1-2831-0AF00004-1452591171-1452591171|2831|logagent|line:16|func:process_data_for_locations
+MSG:location id (94) has placements: ['8600095', '8600132', '8600139', '8600140', '8600169', '8600096', '8600222', '8600087', '8100116', '8600059', '8600094', '8600195']
+32 0
+/tmp/data_science_wifi/94/2016-01-09/
+different day
+2016-01-12 09:33:49|INFO|1-2831-0AF00004-1452591171-1452591171|2831|pipeline_framework.util.network|line:228|func:call
+MSG:[POST]http://10.240.132.129:80/api/store_logs?version=1&expired_time=1452593029&sign=af7637f1ec16ce99b50557ab93585f2c
+2016-01-12 09:33:49|INFO|1-2831-0AF00004-1452591171-1452591171|2831|requests.packages.urllib3.connectionpool|line:207|func:_new_conn
+MSG:Starting new HTTP connection (1): 10.240.132.129
+2016-01-12 09:33:49|INFO|1-2831-0AF00004-1452591171-1452591171|2831|pipeline_framework.log.handler|line:285|func:_emit
+MSG:Emit logs successfully: total[1]
+download finished for ['8600095', '8600132', '8600139', '8600140', '8600169', '8600096', '8600222', '8600087', '8100116', '8600059', '8600094', '8600195'] 2016-01-09 00:00:00 , 265 files
+2016-01-12 09:33:51|INFO|1-2831-0AF00004-1452591171-1452591171|2831|logagent|line:120|func:download_csv
+MSG:download finished for ['8600095', '8600132', '8600139', '8600140', '8600169', '8600096', '8600222', '8600087', '8100116', '8600059', '8600094', '8600195']  2016-01-09 00:00:00
+process 265 csv files finished, 2016-01-09
+2016-01-12 09:34:11|INFO|1-2831-0AF00004-1452591171-1452591171|2831|logagent|line:275|func:wifi_classifier
+MSG:save feature to table wifi_mac_features ok
+2016-01-12 09:34:50|INFO|1-2831-0AF00004-1452591171-1452591171|2831|pipeline_framework.util.network|line:228|func:call
+MSG:[POST]http://10.240.132.129:80/api/store_logs?version=1&expired_time=1452593089&sign=6da8a10943cb71974e8b0170e3dd4c58
+2016-01-12 09:34:50|INFO|1-2831-0AF00004-1452591171-1452591171|2831|pipeline_framework.log.handler|line:285|func:_emit

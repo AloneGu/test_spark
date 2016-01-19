@@ -1,0 +1,7 @@
+INFO SparkContext: Invoking stop() from shutdown hook
+jac@jac-VirtualBox:~/Documents/wei_test_box/spart_test$ 16/01/12 18:37:45 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+16/01/12 18:37:45 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+16/01/12 18:37:45 INFO MemoryStore: MemoryStore cleared
+16/01/12 18:37:45 INFO BlockManager: BlockManager stopped
+16/01/12 18:37:45 INFO BlockManagerMaster: BlockManagerMaster stopped
+16/01/12 18:37:45 INFO OutputCommitCoordinator$OutputCommitCoordin
