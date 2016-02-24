@@ -8,6 +8,8 @@ class wifi_data(object):
         self.sn=3
         print 'xxx'
 
+
+
 def determine_type(wifi_data):
     wifi_data.foo()
     if wifi_data.t >=2 and wifi_data.sn>=2:
